@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="16" passed="16">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="40752" started-at="2017-02-21T08:28:27Z" finished-at="2017-02-21T08:29:08Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="40752" started-at="2017-02-21T08:28:27Z" finished-at="2017-02-21T08:29:08Z">
+      <class name="core.SignUpTest">
+        <test-method status="PASS" signature="setupWebDriver()[pri:0, instance:core.SignUpTest@475530b9]" name="setupWebDriver" is-config="true" duration-ms="7393" started-at="2017-02-21T00:28:27Z" finished-at="2017-02-21T00:28:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupWebDriver -->
+        <test-method status="PASS" signature="test_01_verify_content_quotes()[pri:0, instance:core.SignUpTest@475530b9]" name="test_01_verify_content_quotes" duration-ms="2200" started-at="2017-02-21T00:28:35Z" finished-at="2017-02-21T00:28:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_01_verify_content_quotes -->
+        <test-method status="PASS" signature="test_02_verify_content_current_city()[pri:0, instance:core.SignUpTest@475530b9]" name="test_02_verify_content_current_city" duration-ms="539" started-at="2017-02-21T00:28:37Z" finished-at="2017-02-21T00:28:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_02_verify_content_current_city -->
+        <test-method status="PASS" signature="test_03_verify_content_weather()[pri:0, instance:core.SignUpTest@475530b9]" name="test_03_verify_content_weather" duration-ms="467" started-at="2017-02-21T00:28:37Z" finished-at="2017-02-21T00:28:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_03_verify_content_weather -->
+        <test-method status="PASS" signature="test_04_verify_content_date()[pri:0, instance:core.SignUpTest@475530b9]" name="test_04_verify_content_date" duration-ms="421" started-at="2017-02-21T00:28:38Z" finished-at="2017-02-21T00:28:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_04_verify_content_date -->
+        <test-method status="PASS" signature="test_05_verify_content_os()[pri:0, instance:core.SignUpTest@475530b9]" name="test_05_verify_content_os" duration-ms="383" started-at="2017-02-21T00:28:38Z" finished-at="2017-02-21T00:28:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_05_verify_content_os -->
+        <test-method status="PASS" signature="test_06_verify_content_browser()[pri:0, instance:core.SignUpTest@475530b9]" name="test_06_verify_content_browser" duration-ms="384" started-at="2017-02-21T00:28:39Z" finished-at="2017-02-21T00:28:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_06_verify_content_browser -->
+        <test-method status="PASS" signature="test_07_verify_link_facebook()[pri:0, instance:core.SignUpTest@475530b9]" name="test_07_verify_link_facebook" duration-ms="3512" started-at="2017-02-21T00:28:39Z" finished-at="2017-02-21T00:28:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_07_verify_link_facebook -->
+        <test-method status="PASS" signature="test_08_verify_link_twitter()[pri:0, instance:core.SignUpTest@475530b9]" name="test_08_verify_link_twitter" duration-ms="6012" started-at="2017-02-21T00:28:43Z" finished-at="2017-02-21T00:28:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_08_verify_link_twitter -->
+        <test-method status="PASS" signature="test_09_verify_link_flickr()[pri:0, instance:core.SignUpTest@475530b9]" name="test_09_verify_link_flickr" duration-ms="4327" started-at="2017-02-21T00:28:49Z" finished-at="2017-02-21T00:28:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_09_verify_link_flickr -->
+        <test-method status="PASS" signature="test_10_verify_link_youtube()[pri:0, instance:core.SignUpTest@475530b9]" name="test_10_verify_link_youtube" duration-ms="5007" started-at="2017-02-21T00:28:53Z" finished-at="2017-02-21T00:28:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_10_verify_link_youtube -->
+        <test-method status="PASS" signature="test_11_verify_submit_form()[pri:0, instance:core.SignUpTest@475530b9]" name="test_11_verify_submit_form" duration-ms="3694" started-at="2017-02-21T00:28:58Z" finished-at="2017-02-21T00:29:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_11_verify_submit_form -->
+        <test-method status="PASS" signature="test_12_verify_error_handling_first_name()[pri:0, instance:core.SignUpTest@475530b9]" name="test_12_verify_error_handling_first_name" duration-ms="543" started-at="2017-02-21T00:29:02Z" finished-at="2017-02-21T00:29:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_12_verify_error_handling_first_name -->
+        <test-method status="PASS" signature="test_13_verify_error_handling_last_name()[pri:0, instance:core.SignUpTest@475530b9]" name="test_13_verify_error_handling_last_name" duration-ms="633" started-at="2017-02-21T00:29:02Z" finished-at="2017-02-21T00:29:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_13_verify_error_handling_last_name -->
+        <test-method status="PASS" signature="test_14_verify_error_handling_email()[pri:0, instance:core.SignUpTest@475530b9]" name="test_14_verify_error_handling_email" duration-ms="1619" started-at="2017-02-21T00:29:03Z" finished-at="2017-02-21T00:29:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_14_verify_error_handling_email -->
+        <test-method status="PASS" signature="test_15_verify_error_handling_phone()[pri:0, instance:core.SignUpTest@475530b9]" name="test_15_verify_error_handling_phone" duration-ms="1239" started-at="2017-02-21T00:29:04Z" finished-at="2017-02-21T00:29:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_15_verify_error_handling_phone -->
+        <test-method status="PASS" signature="test_16_verify_confirmation_page()[pri:0, instance:core.SignUpTest@475530b9]" name="test_16_verify_confirmation_page" duration-ms="2001" started-at="2017-02-21T00:29:06Z" finished-at="2017-02-21T00:29:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_16_verify_confirmation_page -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:core.SignUpTest@475530b9]" name="tearDown" is-config="true" duration-ms="281" started-at="2017-02-21T00:29:08Z" finished-at="2017-02-21T00:29:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="suiteTearDown()[pri:0, instance:core.SignUpTest@475530b9]" name="suiteTearDown" is-config="true" duration-ms="0" started-at="2017-02-21T00:29:08Z" depends-on-methods="core.SignUpTest.tearDown" finished-at="2017-02-21T00:29:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteTearDown -->
+      </class> <!-- core.SignUpTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
