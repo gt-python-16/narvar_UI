@@ -3,14 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="core.SignUpTest">
+      <class name="core.LouandgreyPageTest">
         <methods>
-          <include name="test_01_verify_content_quotes"/>
           <include name="suiteTearDown"/>
-          <include name="tearDown"/>
           <include name="setupWebDriver"/>
+          <include name="test_05_verify_shipping_link"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- core.SignUpTest -->
+      </class> <!-- core.LouandgreyPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

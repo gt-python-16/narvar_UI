@@ -53,7 +53,7 @@ public class BrowserFactory {
       	ChromeOptions option = new ChromeOptions();
       	option.addArguments("-start-fullscreen"); 
       	ChromeDriver driver = new ChromeDriver(option);
-      	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+      	driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 		return driver;
 		
 /*		System.setProperty("webdriver.chrome.driver", "resources//chromedriver");
@@ -65,7 +65,7 @@ public class BrowserFactory {
       	options.setUseCleanSession(true);
       	options.setPort(55555);
       	SafariDriver driver = new SafariDriver(options);
-      	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+      	driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
       	driver.manage().window().maximize();
 		return driver;
 		
